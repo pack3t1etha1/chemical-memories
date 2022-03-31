@@ -1020,7 +1020,7 @@ div:nth-child(99):before, div:nth-child(99):after {
 }
 
 @keyframes slide {
-  50% {
+  100% {
     transform: translateY(40vh) rotate(-20deg) translate3d(0, 0, 0);
   }
 }
