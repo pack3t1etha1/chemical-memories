@@ -88,10 +88,6 @@ function animate() {
     line.draw();
   })
 };
-
-var i=8;
-while (i<10){
- console.log(MouseEvent.x, MouseEvent.y);
-}
+console.log(MouseEvent.x, MouseEvent.y);
 
 animate();
