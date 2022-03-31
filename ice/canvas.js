@@ -91,7 +91,7 @@ function animate() {
 
 var i=8;
 while (i<10){
- console.log(mouse.x, mouse.y);
+ console.log(MouseEvent.x, MouseEvent.y);
  i++;
 }
 
