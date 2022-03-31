@@ -25,7 +25,7 @@ class Line {
     this.y = y;
     this.offset = offset;
     this.radians = 0;
-    this.velocity = 0.05;
+    this.velocity = 0.1; // 0.01
   }
 
   draw = () => {
@@ -67,7 +67,7 @@ class Line {
 const lineArray = [];
 
 for (let i = 0; i < 100; i++) {
-
+  console.log(i); // just messing
   const start = { x: -250, y: 800 };
   const random = Math.random() - 0.5;
   const unit = 25;
