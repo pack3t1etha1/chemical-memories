@@ -25,7 +25,7 @@ class Line {
     this.y = y;
     this.offset = offset;
     this.radians = 0;
-    this.velocity = 0.01;
+    this.velocity = 0.05;
   }
 
   draw = () => {
